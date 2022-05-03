@@ -29,7 +29,7 @@ namespace MajestyApi.Controllers
         }
 
         // GET: api/Stories/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")] // note id for distinguir GetStoriesByPlot()
         public async Task<ActionResult<Storie>> GetStorie(int id)
         {
             var storie = await _context.Storie.FindAsync(id);
@@ -42,6 +42,24 @@ namespace MajestyApi.Controllers
             return storie;
         }
 
+        /// <summary>
+        /// search by plot
+        /// </summary> 
+        /// <param name="searchQuery"></param>
+        /// <returns></returns>
+        // GET: api/Stories/searchQuery
+        [HttpGet("{searchQuery}")]
+        
+        public async Task<ActionResult<IEnumerable<Storie>>> GetStoriesByPlot([FromRoute] string? searchQuery)
+        {
+            searchQuery = searchQuery ?? ""; //if null assign empty value
+            searchQuery =searchQuery.ToLower().Trim(); // convert to LowerCase
+             
+            return await _context.Storie.Where(s => s.Plot.ToLower().
+                            Contains(searchQuery) ).ToListAsync();
+
+        }
+       
         // PUT: api/Stories/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]

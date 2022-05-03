@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Departamento\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj": {}
+    "C:\\Users\\Leles pc\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Departamento\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj": {
+    "C:\\Users\\Leles pc\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Departamento\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj",
+        "projectUniqueName": "C:\\Users\\Leles pc\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj",
         "projectName": "MajestyApi",
-        "projectPath": "C:\\Users\\Departamento\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj",
-        "packagesPath": "C:\\Users\\Departamento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Departamento\\source\\repos\\MajestyApi\\MajestyApi\\obj\\",
+        "projectPath": "C:\\Users\\Leles pc\\source\\repos\\MajestyApi\\MajestyApi\\MajestyApi.csproj",
+        "packagesPath": "C:\\Users\\Leles pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leles pc\\source\\repos\\MajestyApi\\MajestyApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Departamento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leles pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,21 +56,21 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0-rc.1.20451.13, )"
+              "version": "[5.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.0-rc.1.20451.13, )"
+              "version": "[5.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0-rc.1.20451.13, )"
+              "version": "[5.0.16, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.0-rc.1.20453.2, )"
+              "version": "[5.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
